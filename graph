@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+
+skill_count.plot(kind='bar')
+
+plt.title("Most Demanded Skills")
+
+plt.xlabel("Skills")
+
+plt.ylabel("Job Count")
+
+plt.show()
