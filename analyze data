@@ -1,0 +1,17 @@
+import sqlite3
+import pandas as pd
+
+conn = sqlite3.connect("jobs.db")
+
+df = pd.read_sql_query(
+    "SELECT * FROM jobs",
+    conn
+)
+
+print(df)
+
+print("\nSkill Analysis:\n")
+
+skill_count = df["skill"].value_counts()
+
+print(skill_count)
