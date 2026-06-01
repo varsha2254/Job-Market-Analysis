@@ -1,0 +1,7 @@
+JobMarketAnalyzer
+
+│
+├── database.py
+├── scraper.py
+├── analyzer.py
+├── main.py
