@@ -1,0 +1,6 @@
+df.to_excel(
+    "job_market_report.xlsx",
+    index=False
+)
+
+print("Excel Report Generated")
