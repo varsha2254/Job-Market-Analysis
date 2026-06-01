@@ -1,1 +1,2 @@
 # Job-Market-Analysis
+Developed a Job Market Analyzer using Python to collect and analyze job listing data. Stored job information in an SQLite database and processed it using Pandas. Identified the most in-demand skills and analyzed salary trends. Created visualizations using Matplotlib and generated Excel reports for insights. Utilized Python, BeautifulSoup, Pandas, SQLite, and Matplotlib throughout the project.
